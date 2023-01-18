@@ -1,0 +1,107 @@
+/* layout */
+.layout_wr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.layout {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* header */
+.header {
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/* Form */
+.formwr {
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.add-input {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+
+.add-button {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 140px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 202, 1),
+    rgba(148, 187, 233, 1)
+  );
+  max-width: 1200px;
+}
+
+.todo-card {
+  border-radius: 12px;
+  border: 4px solid transparent;
+  width: 270px;
+  padding: 12px 24px 24px;
+}
+
+.button-set {
+  display: flex;
+  margin-top: 24px;
+  gap: 10px;
+}
+
+.todo-button {
+  width: 50%;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.todo-button-two {
+  width: 50%;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: white;
+}
