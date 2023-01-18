@@ -1,8 +1,3 @@
-# 1207 REACT
+# 0118 Typescript Refactoring
 
-1. LAYOUT
-2. HEADER
-3. FORM
-4. TODO
-5. LIST
-6. CARD
+타임어택 과제로 한 타입스크립트 리팩토링입니다
